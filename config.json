@@ -1,0 +1,11 @@
+{
+  "shops": 3,
+  "cash_registers_per_shop": 1,
+  "receipts_per_cash": 10,
+  "database": {
+    "host": "127.0.0.1",
+    "port": 55440,
+    "dbname": "shop_sales",
+    "user": "postgres"
+  }
+}

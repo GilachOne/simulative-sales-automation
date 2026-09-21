@@ -1,0 +1,34 @@
+[
+  {
+    "Name": "Simulative_Sales_Generate",
+    "State": "Ready",
+    "LastRun": "2026-09-21 16:20:03",
+    "Result": 0,
+    "NextRun": "2026-09-22 10:00:00",
+    "Triggers": [
+      {
+        "DaysOfWeek": 126,
+        "DaysInterval": null,
+        "StartBoundary": "2026-09-21T10:00:00+03:00"
+      }
+    ],
+    "Program": "python.exe",
+    "Script": "generate.py"
+  },
+  {
+    "Name": "Simulative_Sales_Load",
+    "State": "Ready",
+    "LastRun": "2026-09-21 16:20:20",
+    "Result": 0,
+    "NextRun": "2026-09-22 10:15:00",
+    "Triggers": [
+      {
+        "DaysOfWeek": null,
+        "DaysInterval": 1,
+        "StartBoundary": "2026-09-21T10:15:00+03:00"
+      }
+    ],
+    "Program": "python.exe",
+    "Script": "run_load.py"
+  }
+]
